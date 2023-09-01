@@ -303,7 +303,7 @@
 	)
 	crate_name = "paper cutters crate"
 
-/datum/supply_pack/chemical
+/datum/supply_pack/misc/chemical
 	name = "Chemical Starter Kit Crate"
 	desc = "Contains thirteen different chemicals, for all the fun experiments you can make."
 	cost = CARGO_CRATE_VALUE * 2.6

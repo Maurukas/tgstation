@@ -53,7 +53,7 @@
 	desc = "Contains a single IV drip for administering blood to patients."
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/machinery/iv_drip,
-					/obj/item/reagent_containers/chem_pack = 3,
+					/obj/item/reagent_containers/chem_pack = 2,
 				)
 	crate_name = "iv drip crate"
 
@@ -73,7 +73,7 @@
 					/obj/item/reagent_containers/medigel/sterilizine,
 					/obj/item/reagent_containers/blood/o_minus,
 					/obj/item/reagent_containers/pill/neurine,
-					/obj/item/reagent_containers/hypospray/medipen = 2,
+					/obj/item/reagent_containers/hypospray/medipen,
 					/obj/item/reagent_containers/hypospray/medipen/blood_loss,
 					/obj/item/reagent_containers/hypospray/medipen/ekit,
 					/obj/item/reagent_containers/chem_pack,
@@ -88,7 +88,7 @@
 					/obj/item/stack/medical/bone_gel,
 					/obj/item/stack/medical/gauze,
 					/obj/item/healthanalyzer/simple,
-					/obj/item/clothing/glasses/eyepatch/medical
+					/obj/item/clothing/glasses/eyepatch/medical,
 				)
 	crate_name = "medical surplus crate"
 
@@ -188,7 +188,8 @@
 	crate_name = "Strong-Arm implant crate"
 
 /datum/supply_pack/medical/anesthetic
-	name = "A large portable gas canister filled with anesthetic mix. \
+	name = "Anesthetic canister"
+	desc = "A large portable gas canister filled with anesthetic mix. \
 		Suitable for use in surgery or cryogenics."
 	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/machinery/portable_atmospherics/canister/anesthetic_mix)
